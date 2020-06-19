@@ -1,0 +1,35 @@
+h1, p {
+  font-family: Lato;
+}
+
+.social-links{
+  margin-top: 2rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background: #dde1e7;
+  font-size: 17px;
+  
+}
+
+.social-link {
+	height: 40px;
+	width: 40px;
+  margin: auto;
+	background: #dde1e7;
+	border-radius: 5px;
+	box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+}
+.social-link:hover {
+	height: 40px;
+	width: 40px;
+	background: #dde1e7;
+	border-radius: 5px;
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
